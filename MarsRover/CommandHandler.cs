@@ -6,7 +6,7 @@ using static MarsRover.RoverEnums;
 
 namespace MarsRover
 {
-    public class CommandHandler
+    public class CommandHandler : ICommandHandler
     {
         public IRover Rover { get; private set; }
 
